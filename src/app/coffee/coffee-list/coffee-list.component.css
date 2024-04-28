@@ -1,0 +1,23 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    width: 100%;
+    height: 33rem;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 10rem; /* Ajusta la altura de la imagen según sea necesario */
+  }
+
+
+
+  thead.thead-dark th {
+    background-color: black;
+    color: white;
+  }
